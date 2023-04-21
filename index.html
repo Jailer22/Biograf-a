@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+
+        <meta name="viewport" content="width:device-width, initial-scale=1.0"> 
+        <link rel="icon" href="" type="image/x-icon"> 
+        <title>Ejercicio Módulo 1</title> 
+        <meta name="description" content="Ejercicio módulo 1 del diplomado en desarrollo web fullsctack de la Unicataluña"> 
+        <meta name="author" content="Developer web J.Alvear">
+        <meta name="author" content="Daniel Garces"> 
+    </head>  
+
+    <body>
+      <div id="container">
+        <h1>Jailer Alvear Cisneros</h1> 
+        <h2>Bienvenidos a mi sitio web :) </h2>     
+        <h3>Ingeniero de sistemas - Desarrollador Web </h3> 
+        <h4>Skills: CSS || Angular || TypeScript || Javascript || MongoDB || html5 || Nodejs ||</h4>
+        <img src="./assets/img/Foto Jailer Alvear.jpg" width="30%"   alt="">
+
+        <h3>Estudios realizados:</h3>
+        <ul>
+            <li>Ingeniería de sistemas - Corporación Universitaria Politécnico de la Costa Atlántica</li> 
+            <li>Tecnologo en sistemas - Corporación Universitaria Politécnico de la Costa Atlántica</li>
+            <li>Tecnologo en producción de multimedia - SENA</li>
+            <li>Técnico laboral en contact center - ACATIC</li> 
+        </ul>
+
+        <h3>Estudios complementarios</h3>
+        <ol>
+            <li>Diplomado en metodología SCRUM - Corporación Universitaria Politécnico de la Costa Atlántica</li>
+            <li>Bootcamp en desarrollo web Full Stack - Iberoamericana/BIT</li>
+            <li>Diplomado en desarrollo web Full Stack - Universidad de Cataluña</li>
+        </ol>
+
+        </div>
+        <div>
+            <h3>Sobre mí:</h3>
+            <p> Ingeniero de sistemas graduado en la Corporación Universitaria Politécnico de la Costa Atlántica en la ciudad de Barranquilla.
+                Me desempeño como analista de validación de sistemas computarizados,en Laboratorios Incobra S.A donde se generan calificaciones a equipos de laboratorio
+                realizando pruebas de desempeño, de operación, de instalación y diseño a los equipos en general y a los softwares.</p>
+                <br>
+                <h2>Hobbies:</h2>
+                <ol>
+                    <li>Tocar guitarra - piano</li>
+                    <li>Ver pelculas</li>
+                    <li>Estudiar tecnología</li>
+                </ol>  
+                <h2>Comidas favoritas:</h2>
+                <ul>
+                    <li>Pescado en sumo de coco</li><img src="./assets/img/pescado.jpg" alt="" width="25%" height="30%">
+                    <li>Pastas con camarones</li><img src="./assets/img/pasta.jpg" width="25%" height="30%">
+                    <li>Pollo en la mayoría de sus presentaciones</li><img src="./assets/img/pollo.jpg" width="25%" height="30%">
+                </ul>
+                <h2>Canciones favoritas:</h2>
+                <ul>
+                    <li><strong>Lo mejor que hay en mi vida 🎶</strong>
+                        <audio>
+                            <source src="./assets/audio/cancion.mp3" type="audio/mp3">
+                        </audio>
+                    </li>
+                    
+                </ul>
+                
+        </div>
+
+        <div>
+            <h3>Redes Sociales</h3>
+            <li><a href="https://www.linkedin.com/in/jailer-alvear-cisneros-91b6b9200/">Linkedin</a></li>
+            <li><a href="https://github.com/Jailer22">GitHub</a></li>
+        </div>
+    <div>
+        <br>
+        <table>
+           <thead>
+            <tr>
+               <th>Nombres</th>
+               <th>Apellidos</th> 
+               <th>Correo</th> 
+               <th>Teléfono</th>
+               <th>Ciudad</th>
+            </tr>
+           </thead> 
+           <tbody>
+            <tr>
+                <td>Jailer Alexander</td>
+                <td>Alvear Cisneros</td>
+                <td>jailer12345@gmail.com.co</td>
+                <td>3012345678</td>
+                <td>Tangamandapio</td>
+            </tr>
+           </tbody>
+        </table>
+    </div>
+        <br>
+      
+        <div class="container">
+            <strong>Registro de usuario</strong>
+                <div class="form-group">
+                    <br>
+                    <label for="">Nombres:</label>
+                    <input type="text" class="form-control" id="" name="Nombres" placeholder="Nombres" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Apellidos:</label>
+                    <input type="text" class="form-control" id="" name="Apellidos" placeholder="Apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Fecha de Nacimiento:</label>
+                    <input type="date" class="form-control" id="" name="fecha_nacimiento" placeholder="Fecha de nacimiento required">
+                </div>
+                <div class="form-group">
+                    <label for="">Sexo:</label>
+                    <input type="radio" id="" name="sexo" value="F"><label>Femenino</label>
+                    <input type="radio" id="" name="sexo" value="M"><label>Masculino</label>
+                </div>
+                <div class="form-group">
+                    <label for="">Correo electrónico</label>
+                    <input type="email" class="form-control" id="" name="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Contraseña:</label>
+                    <input type="password" class="form-control" id="" name="password" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <button type="submit">Guardar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+        </div>
+        <br>
+        <div class="container">
+            <strong>Inicio de sesión</strong>
+                <div class="form-group">
+                    <label for="">Correo electrónico</label>
+                    <input type="email" class="form-control" id="" name="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Contraseña:</label>
+                    <input type="password" class="form-control" id="" name="password" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <button type="submit">Iniciar sesión</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+        </div>
+        <br> 
+        <div class="container">
+            <strong>Contáctenos</strong>
+                <div class="form-group">
+                    <br>
+                    <label for="">Nombres:</label>
+                    <input type="text" class="form-control" id="" name="Nombres" placeholder="Nombres" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Apellidos:</label>
+                    <input type="text" class="form-control" id="" name="Apellidos" placeholder="Apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Correo electrónico</label>
+                    <input type="email" class="form-control" id="" name="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Número de teléfono:</label>
+                    <input type="phone" id="" name="Número telefónico" placeholder="Número telefónico">
+                </div>
+                <div class="form-group">
+                    <label for="">Tipo de usuario:</label>
+                    <select name="tipo_usuario" class="" id="">
+                        <option value="">Usuario 1</option>
+                        <option>Usuario 2</option>
+                        <option>Usuario Admin</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Mensaje"> Mensaje:</label>
+                    <textarea id="Mensaje" class="" name="" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+        </div>
+    </body>
+</html>
