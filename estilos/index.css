@@ -2,8 +2,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: rgb(11,0,193);
-    background: linear-gradient(90deg, rgb(30, 22, 192) 0%, rgba(55,55,231,1) 48%, rgba(0,125,255,1) 100%);
+    background: linear-gradient(90deg, rgba(91, 60, 230, 0.87) 0%, rgba(55,55,231,1) 48%, rgba(0,125,255,1) 100%);
   }
 
 .container {
