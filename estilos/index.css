@@ -1,0 +1,76 @@
+body{
+    background: #34495e;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+#container {
+  height: 450px;
+  width: 1200px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+
+.Tarjeta .imagen-tarjeta {
+    width: 50%; 
+}
+
+.Tarjeta .imagen-tarjeta imagen-tarjeta{
+    width: 100px;; 
+    vertical-align: top;
+}
+.informacion {
+  width: 50%; 
+  border-radius: 0px 7px 10px 7px;
+  background: #fff;
+}
+.descripcion {
+      width: 100%;
+}
+.descripcion .titulo {
+  margin-left: 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #7e7979;
+  
+}
+.descripcion h1, .redes-link {
+  font-family: sans-serif;
+}
+.descripcion h2{
+margin: 0 0 40px 35px;
+font-size: 13px;
+font-family: sans-serif;
+text-transform: uppercase;
+letter-spacing: .2em;
+}
+.descripcion p {
+  align-self: left;
+  margin: 0 0 47px 38px;
+  height: 125px;
+  margin-left: 10px;
+  font-family: serif;
+  color: 8d8d8d;
+}
+.redes-link {
+  height: 103px;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.redes-link a{
+  align-self: center;
+  height: 50px;
+  width: 170px;
+  border-radius: 25px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
